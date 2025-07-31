@@ -16,7 +16,7 @@ function merge(left,right){
     }
     return [...sortedArray,...left,...right];
 }
-console.log(mergeSort([8,3,5,4,7,6,1,2,9]))     
+console.log(mergeSort([8,3,5,4,7,6,1,2,9]))    
 
 
 
