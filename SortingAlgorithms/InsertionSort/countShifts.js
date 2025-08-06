@@ -11,6 +11,5 @@ function sortInAsc(arr){
     }
     return arr;
 }
-
 let array = [5, 99, 3, 10, 8, 22, 1, 7];
 console.log(sortInAsc(array))
