@@ -5,7 +5,6 @@ class Tree{
         this.right = null;
     }
 }
-
 class BinarySearchTree{
     constructor(){
         this.root = null;
@@ -64,8 +63,6 @@ class BinarySearchTree{
         }
     }
 }
-
-
 let tree = new BinarySearchTree();
 tree.insert(10);
 tree.insert(5);

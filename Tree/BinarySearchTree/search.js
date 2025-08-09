@@ -5,7 +5,6 @@ class Tree{
         this.right = null;
     }
 }
-
 class BinarySearchTree{
     constructor(){
         this.root = null;
@@ -42,7 +41,6 @@ class BinarySearchTree{
         return false;
     }
 }
-
 let tree = new BinarySearchTree();
 tree.insert(10);
 tree.insert(5);
@@ -52,6 +50,3 @@ console.log(tree.search(5));
 console.log(tree.search(8));
 console.log(tree.search(15));
 console.log(tree.search(50));
-
-
-

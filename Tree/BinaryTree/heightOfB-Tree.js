@@ -5,7 +5,6 @@ class Tree{
         this.right =null;
     }
 }
-
 class BinaryTree{
     constructor(){
         this.root = null;
@@ -40,8 +39,6 @@ class BinaryTree{
         return Math.max(leftHeight,rightHeight)+1; 
     }
 }
-
-
 let tree = new BinaryTree();
 tree.insert("A");
 tree.insert(1);

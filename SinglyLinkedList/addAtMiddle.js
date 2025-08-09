@@ -4,7 +4,6 @@ class Node{
         this.next=null;
     }
 }
-
 class sLinkedList{
     constructor(){
         this.head=null;
