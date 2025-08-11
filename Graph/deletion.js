@@ -21,7 +21,7 @@ class Graph{
     deleteVertex(v1){
         if(!this.adjacencyList[v1])return;
         for(let adjacentvertex in this.adjacencyList){
-            this.addEdge(v1,adjacentvertex);
+            this.deleteEdge(v1,adjacentvertex);
         }
         delete this.adjacencyList[vertex];
     }
