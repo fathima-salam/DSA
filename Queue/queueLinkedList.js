@@ -26,7 +26,7 @@ class Queue{
        this.front = this.front.next; 
        
        if(this.front === null){
-           this.read = null;
+           this.rear = null;
        }
        return dequed;
     }

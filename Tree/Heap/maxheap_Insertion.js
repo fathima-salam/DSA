@@ -19,7 +19,6 @@ class Heap{
         console.log(this.heap.join(" "));
     }
 }
-
 let heap = new Heap();
 console.log("heap inserted successfully");
 heap.insert(5);

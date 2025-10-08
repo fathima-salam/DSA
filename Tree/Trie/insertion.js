@@ -30,6 +30,6 @@ class Trie{
 let trie = new Trie();
 console.log("trie implemented successfully");
 trie.insert("apple");
-trie.insert("avocado")
+trie.insert("avocado");
 trie.insert("apart");
 trie.display();
